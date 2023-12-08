@@ -19,7 +19,7 @@ Classic Game Of Life implementation in python
 ---
 ## Zapisywanie i wczytywanie
 Zapisywanie i wczytywanie odbywa się poprzez zapisanie stanu tablicy game_state do pliku txt gdzie 1 oznaczają żywe a 0 martwe komórki.
-PTzy wczytywaniu plik txt zostaje zamieniony spowrotem na tablicę. 
+Przy wczytywaniu plik txt zostaje zamieniony spowrotem na tablicę. 
 Logikę zapisywania i wczytywania obsługują metody click_logic razem z metodami pomocniczymi znajdującymi się 
 odpowiednio w klasach SaveButton i LoadButton w pliku ButtonFactory.py
 
